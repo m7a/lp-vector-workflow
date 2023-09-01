@@ -19,7 +19,7 @@ tmp="$(mktemp -d)"
 css=
 pagopts=
 
-trap "rm -r $tmp" INT TERM EXIT
+trap "rm -r \"$tmp\"" INT TERM EXIT
 
 shift 2
 
