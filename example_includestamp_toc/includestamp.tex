@@ -1,0 +1,66 @@
+% 	Ma_Sys.ma Default Preamble 1.1.0.0, Copyright (c) 2010-2014 Ma_Sys.ma.
+%	For further info send an e-mail to Ma_Sys.ma@web.de.
+\documentclass[paper=a4, DIV11, 11pt, abstracton, headings=normal,
+						captions=tableheading]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,german,ngerman]{babel}
+\usepackage[english,german]{fancyref}
+\usepackage[german]{keystroke}
+\usepackage[top=25mm,left=16mm,right=20mm,bottom=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{kpfonts}
+\usepackage{color} 
+\usepackage{wasysym}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+\usepackage{lastpage}
+\usepackage{pdfpages}
+\usepackage{microtype} % (load at the end)
+\usepackage{hyperref}  % (load at the end)
+\newcommand{\cmd}[1]{{\ttfamily#1}}
+\begin{document}
+\let\cleardoublepage\relax
+\newcommand{\macursec}[0]{}
+\pagestyle{fancy}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+\setlength{\fboxsep}{0pt}
+\newcommand\mamark{
+	\begin{tabular}{|p{7cm}p{6.5cm}p{3cm}|}
+	\hline
+	\cellcolor{white} Some Topic&
+		\cellcolor{white} \cmd{info@masysma.net}, 13.08.2021&
+		\cellcolor{white} Page \thepage/\pageref{LastPage}\\
+	\cellcolor{white} More Info&
+		\multicolumn{2}{l|}{\cellcolor{white}\textbf{\macursec}}\\
+	\hline
+	\end{tabular}
+}
+\renewcommand{\headrulewidth}{0pt}
+\lhead[\mamark]{\mamark}
+\chead[]{}
+\rhead[]{}
+\lfoot[]{}
+\cfoot[]{}
+\rfoot[]{}
+\newcommand\mapart[1]{\addcontentsline{toc}{section}{#1}%
+				\renewcommand{\macursec}[0]{#1}\clearpage}
+
+\tableofcontents % optional
+
+\mapart{Long Part Description 1}
+\includepdf[pagecommand={},pages=1-30]{empty100}
+
+\mapart{Long Part Description 2}
+\includepdf[pagecommand={},pages=31-37]{empty100}
+
+\mapart{Other Part Description 3}
+\includepdf[pagecommand={},pages=38-44]{empty100}
+
+\mapart{More More Part Description}
+\includepdf[pagecommand={},pages=44-60]{empty100}
+
+\end{document}

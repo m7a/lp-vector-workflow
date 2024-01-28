@@ -1,0 +1,62 @@
+\documentclass[paper=a4,landscape,18pt]{scrreprt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,german,ngerman]{babel}
+\usepackage[english,german]{fancyref}
+\usepackage[german]{keystroke}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{kpfonts}
+\usepackage{xcolor}
+\usepackage[top=14mm,left=0mm,right=0mm,bottom=30mm]{geometry}
+\usepackage{multido}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{hyperref}
+\newcommand{\cmd}[1]{{\ttfamily#1}}
+\begin{document}
+\let\cleardoublepage\relax
+\newcommand{\macursec}[0]{}
+\pagestyle{fancy}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+\setlength{\fboxsep}{0pt}
+\newcommand\mamark{\hspace{1cm}\fbox{\setlength{\fboxsep}{3pt}%
+	\colorbox{white}{\begin{minipage}[T]{10mm}%
+	\includegraphics[height=8mm]{masysmaicon}\end{minipage}%
+	\begin{minipage}[T]{20cm}\flushleft
+	{\macursec{}} | \textbf{\thepage}\end{minipage}}}}
+\renewcommand{\headrulewidth}{0pt}
+\lhead[]{}
+\chead[]{}
+\rhead[]{}
+\lfoot[\mamark]{\mamark}
+\cfoot[]{}
+\rfoot[]{}
+\newcommand\mapart[1]{\addcontentsline{toc}{section}{#1}%
+	\renewcommand{\macursec}[0]{#1}\clearpage\setcounter{page}{1}}
+\newcommand\matoc[0]{%
+	\begin{center}
+	\begin{minipage}{0.65\linewidth}
+	\tableofcontents % Muss auf eine Seite passen!
+	\end{minipage}
+	\end{center}
+	\clearpage
+}
+% Ziel-Start+1
+%-------------------------------------------------------------------------------
+
+\mapart{Section 1 slides}
+\multido{}{44}{\vphantom{x}\clearpage}
+
+\mapart{Section 2 slides}
+\multido{}{44}{\vphantom{x}\clearpage}
+
+\mapart{Section 3 slides}
+\multido{}{60}{\vphantom{x}\clearpage}
+
+\mapart{Section 4 slides}
+\multido{}{64}{\vphantom{x}\clearpage}
+
+%-------------------------------------------------------------------------------
+\end{document}

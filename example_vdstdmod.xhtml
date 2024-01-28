@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+			"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Vorlage Studienmodul</title>
+<link rel="shortcut icon" href="file:///usr/share/mdvl/icons/masysmaicon.png"/>
+<style type="text/css">
+/* <![CDATA[ */
+form {
+	font-family: "Din 1451 Mittelschrift";
+	line-height: 25px;
+	font-size: 16px;
+}
+fieldset                         { border: 2px solid #000; }
+.lbl, .field, .sep, label, input { padding: 5px; display: block; float: left; }
+.sep                             { height: 16px; width: 50px; }
+.field                           { height: 16px; border-bottom: 2px dotted #000; }
+/* ]]> */
+</style>
+</head>
+<body>
+<div>
+
+<form method="get" action="#">
+	<fieldset>
+		<legend>Semester</legend>
+		<div class="lbl">S</div>
+		<span class="field" style="width: 100px"/>
+		<div class="sep"/>
+		<input type="checkbox" id="chck_wise"/>
+		<label for="chck_wise">WiSe</label>
+		<input type="checkbox" id="chck_sose"/>
+		<label for="chck_sose">SoSe</label>
+		<div class="sep"/>
+		<div class="lbl">Jahr</div>
+		<span class="field" style="width: 100px"/>
+		<div class="sep"/>
+		<div class="lbl">Deckblattdatum</div>
+		<span class="field" style="width: 100px"/>
+		<div class="sep" style="width: 10px"/>
+		<img src="file:///data/main/dpr/img/svg/prod/masysmaicon.svg"
+					style="width: 24px; height: 24px"/>
+		v1.1
+	</fieldset>
+	<fieldset>
+		<legend>Modulbezeichnung</legend>
+		<div class="sep" style="height: 100px"/>
+	</fieldset>
+	<fieldset style="float: left; width: 46%">
+		<legend>Modulmetadaten</legend>
+		<table>
+		<tr><td>Abkürzung</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		<tr><td>Anzahl CP</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		<tr><td>VL-Materialien</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		<tr><td>Ordnerstruktur</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		</table>
+	</fieldset>
+	<fieldset style="float: left; width: 46%">
+		<legend>Vorlesung/Übung</legend>
+		<table style="visibility: hidden">
+		<tr><td>Abkürzung</td>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		<tr><td>Anzahl CP</td>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		<tr><td>VL-Materialien</td>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		<tr><td>Ordnerstruktur</td>
+			<td><span class="field" style="width: 200px"/></td></tr>
+		</table>
+	</fieldset>
+	<fieldset>
+		<legend>Studienleistungsrelevante Termine/Modalitäten</legend>
+		<div class="sep" style="height: 200px"/>
+	</fieldset>
+	<fieldset>
+		<legend>Andere Termine/Modalitäten</legend>
+		<div class="sep" style="height: 200px"/>
+	</fieldset>
+	<fieldset>
+		<legend>Prüfungsvorbereitung</legend>
+		<table>
+		<tr><td style="width: 230px">Teilkomponente</td>
+			<td style="width: 15px"/>
+			<td style="width: 200px">Aufwand und
+							Fortschritt</td></tr>
+		</table>
+		<div class="sep" style="height: 150px"/>
+	</fieldset>
+	<fieldset>
+		<legend>Prüfung</legend>
+		<table>
+		<tr><td>Termin</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 650px"/></td></tr>
+		<tr><td>Raum</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 650px"/></td></tr>
+		<tr><td>Hilfsmittel</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 650px"/></td></tr>
+		<tr><td>Besonderheiten</td>
+			<td style="width: 15px"/>
+			<td><span class="field" style="width: 650px"/></td></tr>
+		</table>
+	</fieldset>
+</form>
+
+</div>
+</body>
+</html>

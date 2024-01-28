@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg height="247mm" width="134mm" viewBox="0 0 134 247"
+					xmlns="http://www.w3.org/2000/svg">
+	<!--<rect fill="#f4f4f4" x="0" y="0" width="134" height="247" />-->
+	<g transform="translate(17 7)">
+		<path stroke="#000000" stroke-width="0.5" fill-opacity="0" d="
+			M 0,0 l 100,0 l -15,20 l -70,0 l -15,-20
+			M 15,20 l 70,0 l 0,100 l -70,0 l 0,-100
+			l -25,0 l 0,100 l 25,0
+			m 70,0 l 25,0 l 0,-100 l -25,0
+			M 0,140 l 15,-20 l 70,0 l 15,20 l -100,0
+			l 0,100 l 100,0 l 0,-100" />
+		<path stroke="#404040" stroke-width="0.25" fill-opacity="0" d="
+			M 0,0 l 5,-7 l 90,0 l 5,7
+			M -10,20 l 5,-7 l 15,0 l 5,7
+			m 70,0 l 5,-7 l 15,0 l 5,7
+			l 7,5 l 0,90 l -7,5
+			l -5,7 l -15,0 l -5,-7
+			m -70,0 l -5,7 l -15,0 l -5,-7
+			l -7,-5 l 0,-90 l 7,-5" />
+	</g>
+</svg>
