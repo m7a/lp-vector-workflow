@@ -5,7 +5,7 @@ title: Vector Workflow - Avoiding unnecessary Bitmaps in Graphics Handling
 date: 2022/01/23 19:12:51
 lang: en-US
 author: ["Linux-Fan, Ma_Sys.ma (info@masysma.net)"]
-keywords: ["kb", "draft", "prerelease", "vector", "workflow", "inkscape", "pdf", "svg"]
+keywords: ["kb", "vector", "workflow", "inkscape", "pdf", "svg"]
 x-masysma-version: 1.0.0
 x-masysma-website: https://masysma.lima-city.de/37/vector_workflow.xhtml
 x-masysma-repository: https://www.github.com/m7a/lp-vector-workflow
