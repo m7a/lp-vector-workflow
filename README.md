@@ -10,7 +10,7 @@ x-masysma-version: 1.0.0
 x-masysma-website: https://masysma.lima-city.de/37/vector_workflow.xhtml
 x-masysma-repository: https://www.github.com/m7a/lp-vector-workflow
 x-masysma-owned: 1
-x-masysma-copyright: Copyright (c) 2022--2024 Ma_Sys.ma <info@masysma.net>.
+x-masysma-copyright: (c) 2022--2024 Ma_Sys.ma <info@masysma.net>.
 ---
 Introduction
 ============
@@ -1009,6 +1009,31 @@ GUI programs with bitmap export capabilities:
  * Firefox -- This browser is worth noting because it provides a screenshot
    function that can take screenshots larger than the viewport/screen size and
    hence be used for many SVG and HTML to bitmap export tasks.
+
+License
+=======
+
+The content of this document and relevant scripts are available under GPLv3 or
+later. Feel free to contact me if you would like to use them under a different
+license.
+
+~~~
+Vector Workflow - Avoiding unnecessary Bitmaps in Graphics Handling,
+Copyright (c) 2022--2024 Ma_Sys.ma <info@masysma.net>.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+~~~
 
 Conclusion
 ==========
